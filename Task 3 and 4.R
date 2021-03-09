@@ -1,0 +1,10 @@
+print("Sequence of numbers from 20 t0 50:")
+seq(20:50)
+print("Mean of numbers from 20 to 60:")
+mean(20:60)
+print("Sum of numbers from 51 to 91:")
+sum(51:91)
+
+v = sample(-50:50, 10, replace = TRUE)
+print("10 random interger values between -50 and +50")
+print(v)
